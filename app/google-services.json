@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1055776992184",
+    "project_id": "photobook-bd2ba",
+    "storage_bucket": "photobook-bd2ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055776992184:android:5a82dbcf44d00505c5bd4d",
+        "android_client_info": {
+          "package_name": "com.yash1307.photobook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055776992184-gtqdhols4uno19oqr8u6uj3a2bt4u0er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAjCODfU9syzCsrQLtAgGBccCNv92J34o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055776992184-gtqdhols4uno19oqr8u6uj3a2bt4u0er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

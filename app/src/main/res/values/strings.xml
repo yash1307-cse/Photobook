@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Photobook</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome to Photobook app</string>
+    <string name="don_t_have_an_account_signup"><![CDATA[Don\'t have an account? SignUp]]></string>
+    <string name="create_account">Create Account</string>
+    <string name="profile">Profile</string>
+    <string name="sign_out">Sign out</string>
+    <string name="description">Description</string>
+    <string name="post">Post</string>
+    <string name="for_post_images">For post images</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="welcome_signup">Welcome to Photobook app please create account</string>
+</resources>
