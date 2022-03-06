@@ -1,17 +1,9 @@
 # Photobook
 Photobook is simple application to post photos with description. User can store his small memories with the help of this application. 
-
-
-
-
 ## Features
 
 - User can login & create his account using firebase authentication.
 - User can also post photos with description.
-
-
-
-
 ## Tech Stack
 
 
@@ -29,18 +21,17 @@ Photobook is simple application to post photos with description. User can store 
 **Architecture:** MVC
 
 
-
 ## Screenshots
 
-![Signup screen](https://github.com/yash1307-cse/Photobook/blob/master/preview/Sign%20up%20screen.jpg)
+|   SignUp Screen    |     Add Post Screen      |       Login Screen    |   
+|---    |---    |---
+  ![](https://github.com/yash1307-cse/Photobook/blob/master/preview/Sign%20up%20screen.jpg)    |   ![](https://github.com/yash1307-cse/Photobook/blob/master/preview/add%20post%20screen.jpg)   |   ![](https://github.com/yash1307-cse/Photobook/blob/master/preview/login%20screen.jpg)  
 
-![Add post screen](https://github.com/yash1307-cse/Photobook/blob/master/preview/add%20post%20screen.jpg)
+|   All Posts Screen    |   Splash Screen   |
+|---    |--- 
+![](https://github.com/yash1307-cse/Photobook/blob/master/preview/posts%20screen.png)   |   ![](https://github.com/yash1307-cse/Photobook/blob/master/preview/splash%20screen.jpg)      
 
-![Login screen](https://github.com/yash1307-cse/Photobook/blob/master/preview/login%20screen.jpg)
 
-![All Posts screen](https://github.com/yash1307-cse/Photobook/blob/master/preview/posts%20screen.png)
-
-![Splash screen](https://github.com/yash1307-cse/Photobook/blob/master/preview/splash%20screen.jpg)
 
 
 
