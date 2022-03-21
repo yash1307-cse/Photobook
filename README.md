@@ -29,7 +29,7 @@ Photobook is simple application to post photos with description. User can store 
 
 |   All Posts Screen    |   Splash Screen   |
 |---    |--- 
-![](https://github.com/yash1307-cse/Photobook/blob/master/preview/posts%20screen.png)   |   ![](https://github.com/yash1307-cse/Photobook/blob/master/preview/splash%20screen.jpg)      
+![](https://github.com/yash1307-cse/Photobook/blob/master/preview/posts_screen.jpg)   |   ![](https://github.com/yash1307-cse/Photobook/blob/master/preview/splash%20screen.jpg)      
 
 
 
