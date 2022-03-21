@@ -1,5 +1,6 @@
 package com.yash1307.photobook.activities
 
+import android.annotation.SuppressLint
 import android.app.ProgressDialog
 import android.content.Intent
 import android.net.Uri
@@ -36,6 +37,7 @@ class AddPost : AppCompatActivity() {
     lateinit var postDate: String
     lateinit var progressDialog: ProgressDialog
 
+    @SuppressLint("SimpleDateFormat")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_post)
@@ -77,15 +79,15 @@ class AddPost : AppCompatActivity() {
             progressDialog.setMessage("Posting")
             progressDialog.show()
             val newImage =
-                storageReference.child("all_images").child(imageUri.lastPathSegment.toString())
+                storageReference.child("all_images").child(imageUri.lastPathSegment!!)
 
             newImage.putFile(imageUri).addOnSuccessListener{
                 Toast.makeText(this, "Post uploaded successfully", Toast.LENGTH_SHORT).show()
 
-                newImage.downloadUrl.addOnSuccessListener {
+                newImage.downloadUrl.addOnSuccessListener { downloadImageURI ->
                     val posts = Posts(
                         description = desc,
-                        imageUri = imageUri.toString(),
+                        imageUri = downloadImageURI.toString(),
                         postDate = postDate
                     )
 

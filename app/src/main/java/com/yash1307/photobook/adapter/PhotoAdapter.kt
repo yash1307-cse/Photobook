@@ -24,13 +24,8 @@ class PhotoAdapter(val context: Context, val postsList: ArrayList<Posts>) :
     override fun onBindViewHolder(holder: PhotoViewHolder, position: Int) {
         val currentItem = postsList[position]
         holder.descText.text = currentItem.description
-        val setImageUri = Uri.parse(currentItem.imageUri)
-       /* holder.postImageView.load(setImageUri) {
-            crossfade(true)
-            crossfade(10000)
-        }*/
-        Glide.with(context.applicationContext).load(setImageUri).into(holder.postImageView)
-        //Picasso.get().load(setImageUri).into(holder.postImageView);
+
+        Glide.with(context).load(currentItem.imageUri).into(holder.postImageView)
         holder.dateText.text = currentItem.postDate
     }
 
